@@ -224,6 +224,7 @@ void print_variable_list()
 
 void print_statistics(int last)
 {
+    setlinebuf(stdout);
     static int first = 1;
     extern int command_mode;
     extern char *command_buffer;
